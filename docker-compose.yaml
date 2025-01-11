@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:16
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=lanchonete_produto_user
+      - POSTGRES_PASSWORD=lanchonete_produto_password
+      - POSTGRES_DB=lanchonete_produto

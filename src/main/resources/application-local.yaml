@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lanchonete_produto
+    username: lanchonete_produto_user
+    password: lanchonete_produto_password
