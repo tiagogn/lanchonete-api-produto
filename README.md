@@ -124,6 +124,5 @@ kubectl top pods -n lanchonete  //exibe métrica de consumo dos pods
 
 https://miro.com/app/board/uXjVK5FMZfo=/
 
-## Link Video Fase 2
+## Link Video Fase 4
 
-https://youtube.com/watch?v=83lInn7reAA&feature=shared
