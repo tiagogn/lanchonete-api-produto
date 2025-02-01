@@ -81,13 +81,20 @@ sonar {
 		property "sonar.organization", "fiap-lanchonete-soat8"
 		property "sonar.host.url", "https://sonarcloud.io"
 		property "sonar.exclusions", "**/build/**," +
-				"**/test/**," +
-				"**/src/test/**," +
+				"**/test/**,**/src/test/**," +
 				"**/src/main/resources/**," +
-				"**/br/com/fiap/lanchonete/produto/adapters/input/rest/ErrorController.class," +
-				"**/br/com/fiap/lanchonete/produto/adapters/config/**," +
-				"**/br/com/fiap/lanchonete/produto/adapters/input/rest/request/**," +
-				"**/br/com/fiap/lanchonete/produto/adapters/input/rest/response/**"
-
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produton/adapters/config/**," +
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/request/**," +
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/response/**," +
+				"src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/ErrorController.kt," +
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/output/persistence/**"
+		property "sonar.coverage.exclusions", "**/build/**," +
+				"**/test/**,**/src/test/**," +
+				"**/src/main/resources/**," +
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/config/**," +
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/request/**," +
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/response/**," +
+				"src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/ErrorController.kt," +
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/output/persistence/**"
 	}
 }
