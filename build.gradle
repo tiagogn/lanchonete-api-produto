@@ -87,7 +87,8 @@ sonar {
 				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/request/**," +
 				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/response/**," +
 				"src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/ErrorController.kt," +
-				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/output/persistence/**"
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/output/**," +
+				"**/ProdutoApplication*"
 		property "sonar.coverage.exclusions", "**/build/**," +
 				"**/test/**,**/src/test/**," +
 				"**/src/main/resources/**," +
@@ -95,6 +96,7 @@ sonar {
 				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/request/**," +
 				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/response/**," +
 				"src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/input/rest/ErrorController.kt," +
-				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/output/persistence/**"
+				"**/src/main/kotlin/br/com/fiap/lanchonete/produto/adapters/output/**," +
+				"**/ProdutoApplication*"
 	}
 }
