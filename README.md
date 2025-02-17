@@ -120,6 +120,9 @@ kubectl top pods -n lanchonete  //exibe métrica de consumo dos pods
  
 ```
 
+## SonarQube
+![sonar-produto](sonar-produto.png)
+
 ## Link do Miro
 
 https://miro.com/app/board/uXjVK5FMZfo=/
