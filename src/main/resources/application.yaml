@@ -9,7 +9,7 @@ spring:
     enabled: true
 server:
   servlet:
-    context-path: /produto
+    context-path: /lanchonete-produto
 management:
   endpoints:
     web:

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-configmap
+  namespace: lanchonete-produto
+  labels:
+    app: cm-postgres
+data:
+  postgres-db: "lanchoneteproduto"
+  postgres_user: "lanchonete_produto_user"
+  PG_HOST: "terraform-20241216005549066300000002.cn4si460a9sw.us-east-1.rds.amazonaws.com"
